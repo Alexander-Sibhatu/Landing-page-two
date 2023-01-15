@@ -85,3 +85,17 @@ body {
   text-align: center;
   color: #7acdf1;
 }
+
+.footer .center .Fin {
+  display: flex;
+}
+
+.footer .right .header-heading {
+  text-align: center;
+}
+
+.footer .right span {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
