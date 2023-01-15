@@ -1,4 +1,87 @@
 html,
 body {
   box-sizing: border-box;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1b3c65;
+  color: #7acdf1;
+  height: 55px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+.team-members {
+  margin-bottom: 35px;
+}
+
+.team-members .header-text {
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.team-members .content .members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: 0 120px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  background-color: #7acdf1;
+}
+
+.footer .left {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .left li {
+  list-style-type: none;
+}
+
+.footer .right p {
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.header-heading {
+}
+
+.footer .center i {
+  display: flex;
+}
+
+.team-members .content .members .Anisul,
+.team-members .content .members .Lisa {
+  background-color: #1b3c65;
+  height: 300px;
+}
+
+.team-members .content .name {
+  color: #7acdf1;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.team-members .content .about {
+  text-align: center;
+  color: #7acdf1;
 }
