@@ -32,6 +32,7 @@ body {
 
 .team-members .content .members {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 26px;
   max-width: 100%;
@@ -42,12 +43,11 @@ body {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   background-color: #7acdf1;
 }
-
 .footer .left {
   display: flex;
   gap: 20px;
@@ -98,4 +98,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.footer > div {
+  flex: 1;
 }
